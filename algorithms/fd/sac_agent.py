@@ -214,3 +214,4 @@ class SACfDAgent(SACAgent):
                 self.write_log(
                     0, avg_loss, 0, delayed_update=self.hyper_params["DELAYED_UPDATE"]
                 )
+        print("[INFO] Pre-Train Complete!\n")
